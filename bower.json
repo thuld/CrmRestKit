@@ -1,0 +1,32 @@
+{
+  "name": "CrmRestKit",
+  "version": "2.6.1",
+  "authors": [
+    "Daniel Thul <thuld@outlook.com>"
+  ],
+  "description": "JavaScript library for Dynamics CRM 2011 & 2013 to perform CRUD operations via the Rest Service",
+  "main": "CrmRestKit.js",
+  "keywords": [
+    "Dynamics",
+    "CRM",
+    "2011",
+    "Dynamics",
+    "CRM",
+    "2013",
+    "REST",
+    "ODATA",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "homepage": "http://crmrestkit.codeplex.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}
