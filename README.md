@@ -1,9 +1,23 @@
 Project Description
 -----------
-Based on the idea of the CrmServiceToolkit (Daniel Cai) and provides basic CRUD operations for the 
+Based on the idea of the CrmServiceToolkit (Daniel Cai) and provides basic CRUD operations for the
 Dynamcis CRM 2011 REST /ODATA web-services endpoit.
 
-CRM 2013
+###Breaking Changes with version 3.x
+The API of the module has changed:
+- Use `GetById` instead of `Retrieve`
+- Use `GetByQuery` instead of `ByQuery`
+- Use `GetByQueryUrl` instead of `ByQueryUrl`
+
+The option parameter `opt_asyn` is not supported by version 3.x. All method will perform asynchronous operation. In case you need a certain operation to be performed in synchronous mode, use the method with the `Sync` postfix:
+- `GetByIdSync`
+- `GetByQuerySync`
+- `GetByQueryUrlSync`
+- `CreateSync`
+- `DeleteSync`
+- `UpdateSync`
+
+Dynamics CRM 2013
 -----------
 All unit-tests are passed /green for CRM 2013 Online (tested with the CrmRestKit-2.6.1.js).
 
