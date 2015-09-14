@@ -10,12 +10,16 @@ The API of the module has changed:
 - Use `GetByQueryUrl` instead of `ByQueryUrl`
 
 The option parameter `opt_asyn` is not supported by version 3.x. All method will perform asynchronous operation. In case you need a certain operation to be performed in synchronous mode, use the method with the `Sync` postfix:
-- `GetByIdSync`
-- `GetByQuerySync`
-- `GetByQueryUrlSync`
-- `CreateSync`
-- `DeleteSync`
-- `UpdateSync`
+- `getByIdSync`
+- `getByQuerySync`
+- `getByQueryUrlSync`
+- `createSync`
+- `deleteSync`
+- `updateSync`
+
+Furthermore does are factory method moved to an new namespace
+- `CrmRestKit.factories.entityReference`
+- `CrmRestKit.factories.optionSetValue`
 
 Dynamics CRM 2013
 -----------
