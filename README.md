@@ -30,7 +30,7 @@ Roadmap
 The next major release (3.0) of the CrmRestKit.js requires some fundamental changes:
 - Eliminate the jQuery dependency
 - when.js (https://github.com/cujojs/when) instead of jQuery for the promise-pattern
-- Jasmine (http://pivotal.github.io/jasmine/) as unit-testing framework instead of QUnit
+- Jasmine (http://jasmine.github.io/) as unit-testing framework instead of QUnit
 - “Real” unit-tests with mocks/stubs
 - Prototypes (CrmRestKit.Prototype.Create)
 - Performance
